@@ -1,0 +1,18 @@
+<?php
+    $r = 6;
+    $d = 12;
+    $t = 8;
+    $s = 10;
+    $phi = 3.14;
+    $luasselimut = $phi * $r * $s;
+    $luasalas = $phi * $r * $r;
+    $luaspermukaan = ($phi * $r) + ($phi * $r * $s);
+
+    echo "Menghitung bangun ruang kerucut:<br><br>";
+
+    echo "Diketahui sebuah kerucut memiliki r=6 cm, Hitunglah luas alas kerucut tersebut! <br>";
+    echo "Jadi, luas alas kerucut adalah? " .$luasalas. "cm2.<br><br>";
+    
+    echo "Diketahui sebuah kerucut memiliki r=6 cm, t=8 cmdan s=10 cm. Hitunglah luas permukaannya! <br>";
+    echo "Jadi, luas permukaan kerucut adalah? " .$luaspermukaan. "cm.";
+?>
